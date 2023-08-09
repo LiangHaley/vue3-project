@@ -1,0 +1,55 @@
+{
+  "name": "vue3-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@icon-park/vue-next": "^1.4.2",
+    "@tinymce/tinymce-vue": "^5.0.0",
+    "animate.css": "^4.1.1",
+    "core-js": "^3.6.5",
+    "element-plus": "^2.3.8",
+    "path": "^0.12.7",
+    "pdfh5": "1.3.19",
+    "pdfjs-dist": "^3.9.179",
+    "sass": "^1.64.1",
+    "sass-loader": "^13.3.2",
+    "tinymce": "^6.0.3",
+    "vant": "^4.6.3",
+    "vconsole": "^3.15.1",
+    "vue": "^3.0.1",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.7",
+    "@vue/cli-plugin-eslint": "^4.5.7",
+    "@vue/cli-service": "^4.5.7",
+    "@vue/compiler-sfc": "^3.0.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^7.0.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
